@@ -1,0 +1,97 @@
+ @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif ;
+}
+.outer-box{
+    width: 100vw ;
+    height: 100vh;
+    background: linear-gradient( to right, #1DBDE6,#F1515E) ;
+  
+
+}
+.inner-box{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%; 
+    transform: translateY(-50%); 
+   
+    padding: 20px 40px;
+    background-color:rgb(227, 216, 216);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px;
+    z-index: 1; 
+
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #212121 ;
+}
+.signup-header p{
+    font-size: 1rem;
+    color: #555 ;
+}
+.signup-body{
+    margin: 20px 0;
+}
+
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    font-weight: 600;
+}
+
+.signup-body p input{
+   width: 100%;
+   padding: 8px;
+   border:solid rgb(203, 203, 203) ;
+   border-radius: 4px;
+   margin: 2px 0;
+}
+.signup-body p input[type="submit"]{
+    background: linear-gradient( to right, #1DBDE6,#F1515E) ;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover{
+    background: linear-gradient( to right, #0f6075,#842d34) ;
+
+}
+.signup-footer p{
+ color: #555;
+ text-align: center;
+}
+.signup-footer p a{
+   color: #0f6075   ;
+}
+.signup-footer p a:hover{
+    color:  #041c22  ;
+ }
+
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background: linear-gradient( to right, #1DBDE6,#F1515E) ;
+  position: absolute;
+  
+}
+.c1{
+    top: 100px;
+    left: 50px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
+
